@@ -44,7 +44,7 @@ require __DIR__.'/../vendor/autoload.php';
 |
 */
 
-$app = require_once __DIR__.'/../resources/views/master.blade.php';
+$app = require_once __DIR__.'/../public/index.html';
 
 $kernel = $app->make(Kernel::class);
 
